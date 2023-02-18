@@ -72,20 +72,22 @@ main {
 
 .category {
   font-weight: 500;
-  font-size: 12px;
-  letter-spacing: 7px;
+  font-size: 0.75rem;
+  letter-spacing: 0.5rem;
   opacity: 75%;
 }
 
 .main-title {
   margin-top: 16px;
+  margin-bottom: 8px;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 36px;
+  font-size: 2.15rem;
+  line-height: 2.25rem;
 }
 
 .description {
-  font-size: 15px;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
   margin-bottom: 22px;
 }
 
@@ -94,17 +96,17 @@ main {
   flex-direction: row;
   align-items: center;
   gap: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 
 .big-price {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
 }
 
 .crossed-price {
   text-decoration: line-through;
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 
 .submit-btn {
@@ -129,12 +131,11 @@ main {
 }
 
 .btn-text {
-  font-size: 14px;
-  font-weight: 700;
+  font-size: 0.9rem;
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.65rem;
   text-align: center;
 }
 
@@ -165,24 +166,20 @@ main {
   }
 
   .category {
-    font-size: 12px;
-    letter-spacing: 4px;
-  }
-
-  .title {
-    margin-bottom: 18px;
+    font-size: 0.75rem;
+    letter-spacing: 0.3rem;
   }
 
   .main-title {
-    margin-top: 20px;
-    font-size: 30px;
-    line-height: 28px;
+    margin-top: 12px;
+    font-size: 1.9rem;
+    line-height: 2rem;
   }
 
   .description {
-    font-size: 13px;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
     margin-bottom: 24px;
-    line-height: 24px;
   }
 
   .price {
