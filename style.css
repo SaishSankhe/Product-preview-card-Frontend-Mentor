@@ -7,7 +7,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 96vh;
+  min-height: 96vh;
 }
 
 .serif {
@@ -47,16 +47,9 @@ main {
   flex: 1;
 }
 
-.left img {
+.left picture img {
   max-width: 100%;
-}
-
-.desktop-img {
   display: block;
-}
-
-.mobile-img {
-  display: none;
 }
 
 .right {
@@ -155,14 +148,6 @@ main {
 
   .right {
     flex: 1;
-  }
-
-  .desktop-img {
-    display: none;
-  }
-
-  .mobile-img {
-    display: block;
   }
 
   .category {
