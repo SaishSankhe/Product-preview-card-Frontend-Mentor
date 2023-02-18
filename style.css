@@ -1,0 +1,162 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  margin: 0 18px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.serif {
+  font-family: "Fraunces", serif;
+}
+
+.sans-serif {
+  font-family: "Montserrat", sans-serif;
+}
+
+.text-white {
+  color: hsl(0, 0%, 100%);
+}
+
+.text-gray {
+  color: hsl(228, 12%, 48%);
+}
+
+.text-blue {
+  color: hsl(212, 21%, 14%);
+}
+
+.text-cyan {
+  color: hsl(158, 36%, 37%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card {
+  display: flex;
+  height: 465px;
+  width: 620px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: rgba(149, 157, 165, 0.05) 0px 4px 8px;
+}
+
+.left {
+  flex: 1;
+}
+
+.left img {
+  max-width: 100%;
+}
+
+.desktop-img {
+  display: block;
+}
+
+.mobile-img {
+  display: none;
+}
+
+.right {
+  flex: 1;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.content {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-bottom: 28px;
+}
+
+.category {
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 7px;
+  opacity: 75%;
+  margin-bottom: 16px;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.description {
+  font-size: 15px;
+  margin-bottom: 32px;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.big-price {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.crossed-price {
+  text-decoration: line-through;
+  font-size: 14px;
+}
+
+.submit-btn {
+  all: unset;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  background-color: hsl(158, 36%, 37%);
+  padding: 16px 0px;
+  border-radius: 8px;
+  width: 100%;
+  transition: all 200ms ease-in-out;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+  background-color: hsl(158, 36%, 21%);
+}
+
+.cart-icon {
+  height: auto;
+}
+
+.btn-text {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+@media (max-width: 375px) {
+  .card {
+    flex-direction: column;
+    height: 640px;
+  }
+
+  .desktop-img {
+    display: none;
+  }
+
+  .mobile-img {
+    display: block;
+  }
+}
