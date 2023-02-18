@@ -6,7 +6,7 @@ This is my solution to the [Product preview card component challenge on Frontend
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -22,23 +22,23 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
-### Screenshot
+### Screenshots
 
-![](./screenshot.jpg)
+<img src="./design/Desktop-screen.png" alt="Employee data" title="Desktop version" width="100%">
+<p align="center">
+  <img src="./design/Mobile-screen.png" alt="Employee data" title="Desktop version" width="60%">
+</p>
 
 ### Links
 
-- Solution URL: [Github]([https://your-solution-url.com](https://github.com/SaishSankhe/Product-preview-card-Frontend-Mentor))
-- Live Site URL: [Vercel]([https://your-live-site-url.com](https://product-preview-card-frontend-mentor-clz4u8dwx-saishsankhe.vercel.app/))
+- Solution URL: [Github](https://github.com/SaishSankhe/Product-preview-card-Frontend-Mentor)
+- Live Site URL: [Vercel](https://product-preview-card-frontend-mentor-clz4u8dwx-saishsankhe.vercel.app/)
 
 ## My process
+I started with creating the layout in HTML using flexbox. When the basic layout was done, I applied the CSS for desktop and then added mobile as well.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
