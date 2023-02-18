@@ -8,10 +8,8 @@ This is my solution to the [Product preview card component challenge on Frontend
   - [The challenge](#the-challenge)
   - [Screenshots](#screenshots)
   - [Links](#links)
-- [My process](#my-process)
+  - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-- [Author](#author)
 
 ## Overview
 
