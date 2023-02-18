@@ -88,10 +88,10 @@ main {
   font-size: 12px;
   letter-spacing: 7px;
   opacity: 75%;
-  margin-bottom: 16px;
 }
 
 .main-title {
+  margin-top: 16px;
   font-weight: 700;
   font-size: 36px;
   line-height: 36px;
@@ -152,11 +152,44 @@ main {
     height: 640px;
   }
 
+  .left {
+    flex: none;
+  }
+
+  .right {
+    flex: 1;
+  }
+
   .desktop-img {
     display: none;
   }
 
   .mobile-img {
     display: block;
+  }
+
+  .category {
+    font-size: 12px;
+    letter-spacing: 4px;
+  }
+
+  .title {
+    margin-bottom: 18px;
+  }
+
+  .main-title {
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 28px;
+  }
+
+  .description {
+    font-size: 13px;
+    margin-bottom: 24px;
+    line-height: 24px;
+  }
+
+  .price {
+    margin-bottom: 16px;
   }
 }
