@@ -5,11 +5,11 @@ This is my solution to the [Product preview card component challenge on Frontend
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshots](#screenshots)
-  - [Links](#links)
-  - [My process](#my-process)
-  - [Built with](#built-with)
+- [The challenge](#the-challenge)
+- [Screenshots](#screenshots)
+- [Links](#links)
+- [My process](#my-process)
+- [Built with](#built-with)
 
 ## Overview
 
