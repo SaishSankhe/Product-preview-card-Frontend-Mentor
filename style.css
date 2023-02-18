@@ -7,7 +7,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 96vh;
 }
 
 .serif {
@@ -32,15 +32,6 @@ main {
 
 .text-cyan {
   color: hsl(158, 36%, 37%);
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
 
 .card {
@@ -144,6 +135,15 @@ main {
 .btn-text {
   font-size: 14px;
   font-weight: 700;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 @media (max-width: 375px) {
