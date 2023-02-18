@@ -70,10 +70,6 @@ main {
   flex-direction: column;
 }
 
-.title {
-  margin-bottom: 28px;
-}
-
 .category {
   font-weight: 500;
   font-size: 12px;
@@ -90,7 +86,7 @@ main {
 
 .description {
   font-size: 15px;
-  margin-bottom: 32px;
+  margin-bottom: 22px;
 }
 
 .price {
